@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
+import React from 'react'
+import {  Route } from 'wouter'
+import Vector from './assets/Vector2.png'
+import Quotes from './assets/quotes.png'
+import Home from './pages/Home'
+import Register from './pages/Register'
+import Address from './pages/Address'
+import {FormContext} from './context/FormContext'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (<>
+        <div className='info-div'>
+            <article className='description-article'>
+            Nuwe es la platforma que convierte el desarrollo profesional, la búsquda de trabajo y la conexiones de personas y empresas en un juego. Haciendo que puedas centrarte en lo que te gusta, programar, diseñar, crear, planear...
+                <img src={Vector} className='vector2-img'/>
+                <img src={Quotes} className='quotes-img'/>
+            </article>
+        </div>
+        <Route component={Home} path="/"  />
+        <FormContext>
+            <Route component={Register} path="/register/:registerTo"  />
+            <Route component={Address} path="/address/:registerTo"  />
+        </FormContext>
+    </>)
 }
 
-export default App;
+export default App

@@ -1,0 +1,109 @@
+/**  _________________________________________________
+    |return e info                           |
+    |_________________________________________________|
+*/
+
+
+.return-span{
+    
+    display: flex;
+    grid-column: 7/ span 6 ;
+    grid-row: 1 / span 1 ;
+    justify-content: space-between;
+    
+    gap: 5px;
+    padding: 0 40px;
+    align-items: center;
+    
+    
+}
+.return-span p{
+    color:#8692A6;
+    cursor: pointer;
+}
+
+.return-link{
+
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.return-div{
+
+    width: 106px;
+}
+.return-div p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin:0;
+    color: #BDBDBD;
+}
+.return-div h1{
+    width: 106px;
+    color:#8692A6;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+}
+
+
+/**  _________________________________________________
+    |flow de registros                          |
+    |_________________________________________________|
+*/
+
+.flow-div{
+    
+    
+    grid-column: 7 / span 6 ;
+    grid-row: 2 / span 5 ;
+    display:grid;
+    object-position: center;
+    
+    background: white;
+    
+    
+}
+
+.register-content{
+    margin: auto;
+    margin-top:10px;
+    width: 500px;
+}
+
+
+@media all and (max-width: 950px){
+    
+    .flow-div{
+    
+    
+        grid-column: 1 / span 12 ;
+        grid-row: 2 / span 5 ;
+        
+        
+        
+    }
+
+    
+.return-span{
+    
+    display: flex;
+    grid-column: 1/ span 12 ;
+    grid-row: 1 / span 1 ;
+    
+    
+   
+    
+    
+}
+}

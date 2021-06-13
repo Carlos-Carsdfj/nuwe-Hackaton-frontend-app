@@ -1,0 +1,30 @@
+.flag-img{
+    width:20px;
+    height:20px;
+    display:block;
+}
+.numbers-select{
+    
+    border:1px solid white;
+    background:transparent;
+    background-color: transparent;
+}
+.flag-div{
+    position:absolute;
+    top:50px;
+    left:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#phone{
+    
+    text-align:center;
+    
+}
+
+#country{
+    width: 100%;
+
+}

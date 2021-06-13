@@ -1,0 +1,55 @@
+.modal-div{
+    top: 0;
+    left: 0;
+    position:fixed;
+    display: grid;
+    object-position: center;
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(32, 30, 30, 0.658);
+    z-index:100;
+}
+
+.card-div{
+    font-family: IBM Plex Sans;
+    padding: 30px;
+    border-radius: 16px;
+    margin: auto;
+    background:#ffffff ;
+    width: 90%;
+    max-width:700px ;
+    
+   
+
+}
+.card-div h1{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+} 
+.card-div p{
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+}
+
+.card-div button {
+    width: 164px;
+    height: 56px;
+    outline: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    cursor:pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+   
+}
+
+.card-div button:hover{
+    border: 1px solid black;
+}

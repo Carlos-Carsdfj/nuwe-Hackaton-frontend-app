@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+
+/**  _________________________________________________
+    | parte de la description y article               |
+    |_________________________________________________|
+*/
+
+.info-div{
+  background: linear-gradient(0deg, rgba(86, 155, 81, 0.9), rgba(86, 155, 81, 0.9)), url('./assets/bulding.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1 / span 6 ;
+  grid-row: 1 / span 6 ;
+  min-height:100vh;
+  display:grid;
+  object-position: center;
+
+}
+
+.description-article{
+  margin: auto;
+  color: white;
+  max-width: 473px;
+  position: relative;
+  font-style:normal;
+  font-size: 20px;
+  line-height: 38px;
+
+}
+.vector2-img{
+  position: absolute;
+  right: 40px;
+  bottom:-100px
+}
+.quotes-img{
+  position: absolute;
+  left: 0px;
+  top:-60px
+}
+
+
+
+
+@media all and (max-width: 950px){
+    
+  
+  
+  .info-div{
+   
+    display: none;
+  }
+      
+ 
+}
+

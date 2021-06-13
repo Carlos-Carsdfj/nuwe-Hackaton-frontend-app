@@ -1,0 +1,40 @@
+
+/**  _________________________________________________
+    | parte de la flow de la app                      |
+    |_________________________________________________|
+*/
+.flow-div{
+    
+    
+    grid-column: 7 / span 6 ;
+    grid-row: 1 / span 6 ;
+    display:grid;
+    object-position: center;
+    background: white;
+    
+    
+}
+/**  _________________________________________________
+    |opcions para Opciones de registro                           |
+    |_________________________________________________|
+*/
+
+
+
+.login-span{
+    
+    display: inline-flex;
+    position: absolute;
+    gap: 10px;
+    align-items: center;
+    top:20px;
+    right:50px;
+}
+.login-span p {
+    color:green;
+    cursor: pointer;
+}
+.login-span p:hover{
+    color:grey;
+    
+}

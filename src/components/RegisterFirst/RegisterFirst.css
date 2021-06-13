@@ -1,0 +1,144 @@
+.register-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    
+
+}
+
+.first-register-section{
+
+    margin: auto;
+    width: 100%;
+    max-width:426px;
+}
+
+.first-register-section h1{
+    margin: 0;
+}
+.first-register-section p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8692A6;
+    margin-bottom: 20px;
+
+}
+.data-input{
+    width: 90%;
+    max-width:426px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left:30px ; 
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #8692A6;
+    outline: none;
+    
+} 
+
+.data-input::placeholder {
+    color: #8692A6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+   
+
+  }
+
+.data-input:focus {
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border: 1px solid #4F934A;
+}
+label{
+    align-self: start;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.accept-chackbox{
+
+    align-self: start;
+    margin-top: 10px;
+    margin-bottom: auto;
+    
+}
+
+.show-button{
+position: absolute;
+right: 20px;
+bottom: 110px;
+align-self: flex-end;
+cursor: pointer;
+}
+
+
+.submit-input{
+
+    width: 100%;
+    max-width:426px;
+    height: 40px;
+    
+    
+    
+    padding-left:30px ; 
+    background-color: #4F934A;
+    border-radius: 6px;
+    border: 1px solid #4F934A;
+    color:#FFFFFF;
+    font-family: Inter;
+    
+    font-weight: 500;
+    font-size: 16px;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+
+    
+}
+.google-button{
+
+    width: 100%;
+    max-width:426px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left:30px ; 
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    color:black;
+    font-family: Inter;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    background-image: url('./assets/google.png');
+    background-repeat: no-repeat;
+    background-position: 5% center;
+    background-size: 25px;
+    
+}
+.google-button:focus {
+    
+    border: 1px solid #000000;
+}
+.google-button:hover {
+    
+    border: 1px solid #000000;
+}
+.submit-input:focus {
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border: 1px solid #062b02;
+}
+.submit-input:hover {
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border: 1px solid #062b02;
+}
+
+ 
