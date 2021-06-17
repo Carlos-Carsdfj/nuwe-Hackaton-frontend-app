@@ -1,4 +1,4 @@
-const url = 'https://restcountries.eu/rest/v2/all?fields=name;capital;currencie'
+const url = 'https://restcountries.eu/rest/v2/all?fields=callingCodes;translations;flag'
 
 
 
@@ -10,8 +10,12 @@ export default function getCountries(){
         .then(response=>response.json())
         .then(res=>{
        
-            const countries = res.map(country => country.name)
-           
+            const countries = res.map(country => {
+                return{name:country.translations.es,
+                    flag: country.flag,
+                    callingCodes:country.callingCodes} })
+            
+                    
             return countries
         
         })

@@ -1,6 +1,8 @@
 .flag-img{
     width:20px;
-    height:20px;
+    height:auto;
+    max-height: 20px;
+    object-fit: cover;
     display:block;
 }
 .numbers-select{
@@ -21,10 +23,20 @@
 #phone{
     
     text-align:center;
+
+
     
+
+    
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
 }
 
 #country{
     width: 100%;
 
 }
+

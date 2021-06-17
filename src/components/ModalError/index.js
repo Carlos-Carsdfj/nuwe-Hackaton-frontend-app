@@ -8,7 +8,7 @@ export default function ModalError({message, handlerQuit}) {
             <div className='card-div'>
                 <h1>¡Ups, algo ha ido mal!</h1>
                 <p>{message}</p>
-                <button onClick={handlerQuit}>Cerrar</button>
+                <button onClick={handlerQuit} className='close-button-error'>Cerrar</button>
             </div>
             
         </div>

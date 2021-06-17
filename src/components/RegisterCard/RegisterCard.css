@@ -1,0 +1,19 @@
+.check-number-icon{
+    position: absolute;
+    right: 20px;
+    top:50px
+}
+.check-code-icon{
+    position: absolute;
+    right: 20px;
+    top:130px
+}
+
+.security-notice{
+    padding-top: 20px;
+    margin-top: 10px;
+    color: #8692A6;
+    text-align: center;
+    
+
+}

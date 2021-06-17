@@ -10,54 +10,73 @@
     z-index:100;
 }
 
-.card-div{
+.card-div2{
     font-family: IBM Plex Sans;
     padding: 30px;
     border-radius: 16px;
     margin: auto;
     background:#ffffff ;
     width: 90%;
-    max-width:700px ;
+    max-width:400px;
+    
     
    
 
 }
-.card-div h1{
+.card-div2 h1{
     
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
 } 
-.card-div p{
+.card-div2 p{
     font-size: 17px;
     line-height: 24px;
     color: #000;
 }
 
-.close-button-error {
+
+.close-button{
     width: 164px;
     height: 56px;
     outline: none;
-    background-color: #fff;
-    color: #000;
+   
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
     border: none;
     cursor:pointer;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
-   
+    background-color: #fff;
+    color: #000;
+}
+.go-button{
+    width: 164px;
+    height: 56px;
+    outline: none;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    cursor:pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    background-color: #000;
+    color: #fff;
+
 }
 
-.card-div button:hover{
+.close-button:hover{
     border: 1px solid black;
 }
-
+.go-button:hover{
+    border: 1px solid white;
+}
 
 @media all and (max-width: 950px){
 
-    .card-div{
+    .card-div2{
         
         width: 70%;
         

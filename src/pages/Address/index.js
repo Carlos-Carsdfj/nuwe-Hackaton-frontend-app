@@ -1,13 +1,24 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
-import { Link  } from 'wouter'
+import React, { useEffect, useState } from 'react'
+import { Link,useLocation  } from 'wouter'
 import {FiChevronLeft} from 'react-icons/fi' 
 import RegisterAdd from '../../components/RegisterAdd'
-export default function index({params}) {
 
-    const {registerTo}=params
+export default function index() {
+    const [path, pushLocation] = useLocation()
+    const [back, setBack] = useState('/')
+    const registerTo = sessionStorage.user  
+    
+    useEffect(() => {
+        if(registerTo){
+            setBack(`/register/${sessionStorage.user}`)
+        }else{
+            pushLocation('/')
+        }
+           
+    }, [])
 
-    const back =`/register/${registerTo}`
+   
 
     return (
         <>

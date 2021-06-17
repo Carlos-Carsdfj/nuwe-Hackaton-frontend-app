@@ -30,7 +30,7 @@ export default function RegisterFirst({registerTo}) {
         check(allData)
             .then(isAvailable=>{
                 if(isAvailable){
-                    pushLocation(`/address/${registerTo}`)
+                    pushLocation('/address')
                 }else{
                     setMessage(`Parece que el correo electrónico introducido ya está en uso.
                      Por favor, revísalo y vuelve a intentarlo de nuevo.`)

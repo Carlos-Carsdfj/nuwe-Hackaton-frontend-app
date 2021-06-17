@@ -89,3 +89,13 @@
         opacity: 0;
     
     }
+
+    @media all and (max-width: 950px){
+        
+
+        .join-div{
+           
+            width: 300px;
+           
+        }
+    }

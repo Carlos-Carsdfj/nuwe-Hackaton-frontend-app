@@ -89,21 +89,30 @@
     
         grid-column: 1 / span 12 ;
         grid-row: 2 / span 5 ;
+        justify-content: center;
         
         
         
     }
 
+    .register-content{
+        margin: auto;
+        margin-top:10px;
+        width: 90%;
+    }
     
-.return-span{
+
+    
+    .return-span{
     
     display: flex;
     grid-column: 1/ span 12 ;
     grid-row: 1 / span 1 ;
-    
-    
-   
-    
-    
-}
+        
+    }
+
+    .return-div{
+       align-self: center;
+
+    }
 }

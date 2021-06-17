@@ -16,13 +16,18 @@ export default function useCountries(){
     useEffect(() => {
 
 
-        
+       
         setLoading(true)
         getCountries()
             .then(res=>{
                 setCountries(res)
                 setLoading(false)
             })
+        
+        return ()=>{
+            setCountries([])
+            setLoading(false)
+        }
         
         
     }, [setCountries])
